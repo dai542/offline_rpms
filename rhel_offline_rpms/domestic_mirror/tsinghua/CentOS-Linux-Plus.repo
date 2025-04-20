@@ -1,0 +1,7 @@
+[plus]
+name=CentOS Linux 8.5.2111 - Plus
+#mirrorlist=http://mirrorlist.centos.org/?release=8.5.2111&arch=$basearch&repo=centosplus&infra=$infra
+baseurl=http://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/centosplus/$basearch/os/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
