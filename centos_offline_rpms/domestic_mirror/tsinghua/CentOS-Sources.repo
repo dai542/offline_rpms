@@ -1,0 +1,27 @@
+[base-source]
+name=CentOS-7.9.2009 - Base Sources
+baseurl=http://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.9.2009/os/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[updates-source]
+name=CentOS-7.9.2009 - Updates Sources
+baseurl=http://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.9.2009/updates/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[extras-source]
+name=CentOS-7.9.2009 - Extras Sources
+baseurl=http://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.9.2009/extras/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[centosplus-source]
+name=CentOS-7.9.2009 - Plus Sources
+baseurl=http://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.9.2009/centosplus/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
