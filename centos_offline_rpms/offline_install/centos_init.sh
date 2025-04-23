@@ -265,6 +265,7 @@ yum install -y inxi glances
 yum install -y squashfs-tools-ng
 yum install -y autoconf automake crun cryptsetup fuse fuse3 fuse3-devel git libseccomp-devel libtool shadow-utils-subid-devel squashfs-tools wget zlib-devel
 yum install -y fontconfig.i686 fontconfig.x86_64 freeglut.i686 freeglut.x86_64 freetype.i686 freetype.x86_64 gcc-c++.x86_64 glibc.i686 glibc.x86_64 libX11.x86_64 libXScrnSaver.x86_64 libXcomposite.i686 libXcomposite.x86_64 libXext.i686 libXext.x86_64 libXi.i686 libXi.x86_64 libXinerama.i686 libXinerama.x86_64 libXmu.x86_64 libXrandr.i686 libXrandr.x86_64 libXrender.i686 libXrender.x86_64 libXt.i686 libXt.x86_64 libgfortran.i686 libgfortran.x86_64 libglvnd.i686 libglvnd.x86_64 libglvnd-opengl.i686 libglvnd-opengl.x86_64 libicu.i686 libicu.x86_64 libpng.i686 libpng.x86_64 libstdc++.i686 libstdc++.x86_64 libxcb.i686 libxcb.x86_64 libxkbcommon-x11.x86_64 libxkbcommon.x86_64 libxkbfile.x86_64 libxslt.x86_64 mesa-dri-drivers.x86_64 mesa-libEGL.i686 mesa-libEGL.x86_64 mesa-libGL.i686 mesa-libGL.x86_64 mesa-libGLU.i686 mesa-libGLU.x86_64 mesa-libGLw.x86_64 nss.x86_64 openssl-libs.i686 openssl.x86_64 pcre2-utf16.x86_64 readline.i686 readline.x86_64 xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm xdg-utils.noarch xterm.x86_64 zlib.i686
+yum install -y mesa-libGLU mesa-libGLw mesa-libOSMesa
 
 cd /etc/yum.repos.d/
 rm -rf *.rpmnew ius* nux* rpmfusion*
